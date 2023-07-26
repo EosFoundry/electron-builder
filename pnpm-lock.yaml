@@ -108,8 +108,8 @@ importers:
         specifier: ~2.6.5
         version: 2.6.5
       '@electron/notarize':
-        specifier: ^1.2.3
-        version: 1.2.3
+        specifier: ^2.0.0
+        version: 2.0.0
       '@electron/osx-sign':
         specifier: ^1.0.4
         version: 1.0.4
@@ -2282,8 +2282,8 @@ packages:
       '@types/glob': 7.2.0
     dev: false
 
-  /@electron/notarize@1.2.3:
-    resolution: {integrity: sha512-9oRzT56rKh5bspk3KpAVF8lPKHYQrBnRwcgiOeR0hdilVEQmszDaAu0IPCPrwwzJN0ugNs0rRboTreHMt/6mBQ==}
+  /@electron/notarize@2.0.0:
+    resolution: {integrity: sha512-dqDpd2YCgl6PHJgXEuKGYH3+L4GIGV7ZbKYJjJv66ed+hVPxZA+GAL5JH8/hCnoyQa8WzJTzqd+qhiL5Oxr+SA==}
     engines: {node: '>= 10.0.0'}
     dependencies:
       debug: 4.3.4
@@ -4004,6 +4004,7 @@ packages:
 
   /color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
+    requiresBuild: true
 
   /colorette@2.0.19:
     resolution: {integrity: sha512-3tlv/dIP7FWvj3BsbHrGLJ6l/oKh1O3TcgBqMn+yyCagOxc23fyzDS6HypQbgxWbkpDnf52p1LuR4eWDQ/K9WQ==}

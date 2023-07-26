@@ -31,6 +31,18 @@ win:
     - bitbucket
 ```
 
+A yaml example with a nested object:
+
+```yaml
+win:
+  publish:
+      # object provider for github with additional options
+    - provider: github
+      protocol: https
+      # string provider for bitbucket with default options
+    - bitbucket
+```
+
 You can also configure publishing using CLI arguments, for example, to force publishing snap not to Snap Store, but to GitHub: `-c.snap.publish=github`
 
 [Custom](https://github.com/electron-userland/electron-builder/issues/3261) publish provider can be used if need.
